@@ -7,12 +7,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { CircularComponent } from './circular/circular.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
-    CircularComponent
+    CircularComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
